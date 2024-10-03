@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was developed as a technical test for a FrontEnd position. The main goal was to retrieve and display a list of \"Marital Status\" records from a bank's database. This application was built using **React Native** v0.74.5 and utilizes **Expo** for development.
+This project was developed as a technical test for a React-native FrontEnd position. The main goal was to retrieve and display a list of \"Marital Status\" records from a bank's database. This application was built using **React Native** v0.74.5 and utilizes **Expo** for development.
 
 ## Features
 
