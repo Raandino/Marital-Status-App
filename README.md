@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Marital Status App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This project was developed as a technical test for a FrontEnd position. The main goal was to retrieve and display a list of \"Marital Status\" records from a bank's database. This application was built using **React Native** v0.74.5 and utilizes **Expo** for development.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Splash Screen**: A welcoming screen that appears when the app launches.
+- **Sign-In Screen**: This screen allows users to authenticate with the backend and securely save the token.
+  - **Test Credentials**:
+    - Username: `admin`
+    - Password: `password`
+- **Marital Status List**: Once authenticated, the app fetches the marital status records from the backend.
+- **Navigation**: Users can select an option from the list, which navigates them to a dedicated end screen.
 
-2. Start the app
+## Technical Details
 
-   ```bash
-    npx expo start
-   ```
+- The application retrieves data from the backend once the user is signed in.
+- On selecting a marital status option, the app navigates to an end screen to display the selection.
+- The design adheres to specified spacing and design guidelines, ensuring a clean and user-friendly interface.
 
-In the output, you'll find options to open the app in a
+## Testing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Test files were not completed due to time constraints; however, the core functionality of the app has been implemented and tested.
+- The app works seamlessly on both Android and iOS devices.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation and Setup
 
-## Get a fresh project
+To run the app, follow these steps:
 
-When you're ready, run:
+1. Clone the repository:
 
 ```bash
-npm run reset-project
+git clone [your-repo-url]
+cd [your-repo-directory]
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+3. Start the Expo project:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+expo start
+```
 
-## Join the community
+4. Scan the QR code with the Expo Go app on your mobile device, or run the app on an emulator.
 
-Join our community of developers creating universal apps.
+## Specific Configurations
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Expo** was used to streamline the development process and facilitate easy testing on both Android and iOS platforms.
+
+## Acknowledgments
+
+If you have any questions or require further assistance, please feel free to reach out at aandino186@gmail.com.
