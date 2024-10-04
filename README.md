@@ -23,7 +23,7 @@ This project was developed as a technical test for a React-native FrontEnd posit
 ## Testing
 
 - Test files were not completed due to time constraints; however, the core functionality of the app has been implemented and tested.
-- The app works on both Android and iOS devices,** but it was optimized for IOS devices due to time and hardware constrains**.
+- The app works on both Android and iOS devices, **but it was optimized for IOS devices due to time and hardware constrains**.
 
 ## Installation and Setup
 
